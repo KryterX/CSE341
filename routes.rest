@@ -22,7 +22,7 @@ GET https://cse341-kryterx.herokuapp.com/contacts/636725d386e2495ad7133249
 
 
 
-
+###
 GET http://localhost:8080/contacts
 
 ### Get contact by id 
@@ -42,7 +42,7 @@ content-type: application/json
 }
 
 ### PUT contact 
-PUT http://localhost:8080/contacts/636725d386e2495ad7133200 HTTP/1.1
+PUT http://localhost:8080/contacts/636725d386e2495ad7133247 HTTP/1.1
 content-type: application/json
 
 {
@@ -53,8 +53,21 @@ content-type: application/json
     "birthday":"12/12/20"
 
 } 
+
+PUT http://localhost:8080/contacts/636725d386e2495ad7133247 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName":"Kevin", 
+    "lastName":"Blau", 
+    "email":"kevinblau@me.com", 
+    "favoriteColor":"blue", 
+    "birthday":"02/18/96"
+
+} 
+
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/6220b775099269ff7b31ceab HTTP/1.1
+DELETE http://localhost:8080/contacts/636c32d12477dd564fe7094e HTTP/1.1
 
 
 
