@@ -12,7 +12,9 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
+  
   "host": "cse341-kryterx.herokuapp.com",
+  
   "basePath": "/",
   "tags": [
     {
